@@ -2,13 +2,15 @@
 
 A online shopping app using vanilla JS and HTML-CSS using DOM manuplation and events.
 
-
+# Appearance
+![home](./photo/home.png)
+![cart](./photo/cart.png)
 
 
 ## Tech Stack
 
 - HTML/CSS
-- Vanilla JS
+- Vanilla Javascript
 
 
 ## Author
@@ -20,3 +22,5 @@ A online shopping app using vanilla JS and HTML-CSS using DOM manuplation and ev
 
 
 ## Live Link
+
+https://shopy.netlify.app/
