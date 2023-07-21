@@ -23,4 +23,4 @@ A online shopping app using vanilla JS and HTML-CSS using DOM manuplation and ev
 
 ## Live Link
 
-https://shopy.netlify.app/
+https://shop-ecom.netlify.app/
