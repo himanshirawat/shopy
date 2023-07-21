@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Home | Shopy</title>
+    <meta name="author" description="Himanshika Rawat">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading d-flex align-center fixed top-0 left-0">
+        <div class="heading-title-icon d-flex align-center">
+            <h1 class="heading-title">
+                <a class="link" href="/">Shopy</a>
+            </h1>
+        </div>
+        <div class="search-box-container relative">
+            <input class="search-box-input" placeholder="Search Products">
+            <span class="material-icons-outlined absolute top-0 left-0">
+                search
+                </span>
+        </div>
+        <nav class="navigation">
+            <ul class="list-non-bullet d-flex align-center gap">
+                <li class="list-item-inline">
+                    <a href="/" class="link cursor">
+                        <span class="nav-icon material-icons-outlined">
+                            favorite_border
+                            </span>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="./cart.html" class="link cursor">
+                        <span class="nav-icon material-icons-outlined">
+                            shopping_cart
+                            </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="products-page d-flex">
+        <aside class="side-bar">
+            <h3 class="heading-3">Filter</h3>
+            <div class="filter-container">
+                <h3 class="heading-3">Ratings</h3>
+                <div class="d-flex align-center gap">
+                    <input data-rating="4" id="rating-4" class="radio" type="radio" name="rating">
+                    <label data-rating="4" for="rating-4" class="label">4 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="3" id="rating-3" class="radio" type="radio" name="rating">
+                    <label data-rating="3" for="rating-3" class="label">3 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="2" id="rating-2" class="radio" type="radio" name="rating">
+                    <label data-rating="2" for="rating-2" class="label">2 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="1" id="rating-1" class="radio" type="radio" name="rating">
+                    <label data-rating="1" for="rating-1" class="label">1 stars & above</label>
+                </div>
+            </div>
+        </aside>
+        <div class="product-container d-flex wrap gap" id="products"></div>
+    </div>
+
+
+
+    <script type="module" src="./index.js"></script>
+</body>
+=======
+
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>     
+<body>
+    <div class="main">
+    <h1 class="heading-1">Registration Form</h1>
+    <form class="form">
+      <div class="fn-container gutter-small">
+        <label class="d-flex direction-column gap"
+          >First Name
+          <input data-key="firstName" class="input" placeholder="username" />
+        </label>
+        <span data-error="fn-err" class="error-message"
+          >Name must only contain alphabets</span
+        >
+        <span class="empty-field">*Please fill this field</span>
+      </div>
+
+      <div class="ln-container gutter-small">
+        <label class="d-flex direction-column gap"
+          >Last Name
+          <input data-key="lastName" class="input" placeholder="lastname" />
+        </label>
+        <span data-error="ln-err" class="error-message"
+          >Name must only contain alphabets</span
+        >
+        <span class="empty-field">*Please fill this field</span>
+      </div>
+
+      <div class="email-container gutter-small">
+        <label class="d-flex direction-column gap"
+          >Email Id
+          <input
+            data-key="email"
+            type="email"
+            class="input"
+            placeholder="name@example.com"
+          />
+        </label>
+        <span data-error="email-err" class="error-message">Invalid Email</span>
+        <span class="empty-field">*Please fill this field</span>
+      </div>
+
+      <div class="pwd-container gutter-small relative">
+        <label class="d-flex direction-column gap"
+          >Password
+          <input
+            type="password"
+            data-key="password"
+            class="input "
+            placeholder="password"
+          />
+          <button class="btn absolute right-0">
+            <span class="material-icons-outlined">
+              visibility
+            </span>
+          </button>
+        </label>
+        <ul data-error="pwd-err" class="error-message ul">
+          <li class="list">
+            Password must contain atleast 8 characters
+          </li>
+          <li class="list">
+            Password must contain atleast one lower case letter
+          </li>
+          <li class="list">
+            Password must contain atleast one upper case letter
+          </li>
+          <li class="list">Password must contain atleast one digit</li>
+          <li class="list">
+            Password must contain atleast one special character (!@#$%^&*)
+          </li>
+        </ul>
+        <span class="empty-field">*Please fill this field</span>
+      </div>
+
+      <button class="button btn-primary cursor">Create Account</button>
+    </form>
+    </div>
+
+    <footer>
+        <div class="icons">
+          <a
+            href="https://github.com/himanshirawat"
+            target="_blank"
+            rel="noreferrer"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/himanshi-rawat/"
+            target="_blank"
+            rel="noreferrer"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://in.pinterest.com/himanshikarawat/" target="_blank" rel="noreferrer"
+            ><i class="fa-brands fa-pinterest"></i>
+          </a>
+        </div>
+        <span
+          >Created By <a href="#">Himanshika Rawat</a> |
+          <span class="far fa-copyright"></span> 2022 All rights reserved.</span
+        >
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
+>>>>>>> 040d059b470991f1e25d5ab4fd4f0706e0c0f7ca
